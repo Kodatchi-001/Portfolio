@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgba(128, 128, 128, 0.265);
+    background-color: rgb(232, 232, 232);
 }
 
 header {
@@ -78,10 +78,12 @@ header {
 .content-2 li a:hover:after {
     width: 100%;
 }
-
+.content-2 a{
+    text-decoration: none;
+}
 .content-2 h4 {
     width: 8vw;
-    height: 5vh;
+    height: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,6 +103,7 @@ header {
 .content-3 a {
     color: black;
     font-size: 1.6vw;
+
 }
 
 #home {
@@ -476,7 +479,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(232, 232, 232);
 }
 
 .card-2 {
@@ -494,7 +497,8 @@ header {
         margin-top: 6vh;
     }
 }
-.card-content{
+
+.card-content {
     width: 80%;
     height: 50%;
     display: flex;
@@ -504,7 +508,8 @@ header {
     margin-top: 10vh;
     padding-left: 2vw;
 }
-.card-content h1{
+
+.card-content h1 {
     width: 100%;
 }
 
@@ -519,7 +524,7 @@ header {
     position: relative;
 }
 
-.card-content  i:after {
+.card-content i:after {
     content: '';
     position: absolute;
     background-color: rgb(255, 123, 0);
@@ -531,18 +536,188 @@ header {
     z-index: -1;
 }
 
-.card-content p{
+.card-content p {
     width: 80%;
     margin-top: 1vh;
 }
-#page-3{
+
+#page-3 {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.content-page-3{
-    width: 80%;
+
+.content-page-3 {
+    width: 70%;
     height: 80%;
+}
+
+.card-page-3 {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-info {
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.8s ease-out;
+}
+
+.card-info:hover {
+    background-color: white;
+}
+
+.info-image {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-image-content {
+    width: 90%;
+    height: 90%;
+    background-position: center;
+    background-size: cover;
+}
+#img-1{
+    background-image: url(./web-1.png);
+}
+#img-2{
+    background-image: url(./web-2.png);
+}
+#img-3{
+    background-image: url(./web-3.png);
+}
+
+.info-tittle {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-tittle-1 {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-tittle-1-1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.info-tittle-1-2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info-tittle-1-1 h3 {
+    font-size: 1.1vw;
+}
+
+.info-tittle-1-2 a {
+    margin-top: -4vh;
+    margin-left: 1.5vw;
+    background-color: black;
+    height: 6vh;
+    width: 3vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.8vw;
+    transition: 0.5s ease-in;
+}
+.info-tittle-1-2 a:hover{
+    background-color: rgb(255, 98, 0);
+}
+.info-tittle-2 {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-tittle-2 h1{
+    width: 100%;
+    font-weight: 900;
+}
+.info-tittle-2 p{
+    width: 100%;
+}
+.info-tittle-3 {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.info-tittle-3 a {
+    width: 4vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1vw;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in;
+}
+.info-tittle-3 a:hover{
+    color: rgb(255, 98, 0);
+}
+.info-tittle-3 i{
+    font-size: 1.3vw;
+    margin-right: 0.2vw;
+}
+.link-page-3 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-page-3 a{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in;
+}
+.link-page-3 i{
+    margin-right: 0.3vw;
+}
+.link-page-3 a:hover{
+    color: rgb(255, 98, 0);
 }
