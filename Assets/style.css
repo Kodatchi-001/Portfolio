@@ -9,16 +9,23 @@ body {
 }
 
 header {
-    width: 70%;
+    width: 100%;
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 10px;
+    background-color: rgb(232, 232, 232);
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.185);
 }
-
+.nav-content{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .content-1 {
     width: 50%;
     height: 100%;
@@ -112,13 +119,19 @@ header {
     background-color: rgb(19, 19, 19);
 
     header {
-        color: white;
+        background-color: rgb(19, 19, 19);
+    }
+    .nav-content{
+        color: black;
     }
 
     .content-1 span {
         background-color: white;
         color: black;
-
+    }
+    
+    .content-1 h3{
+        color: white;
     }
 
     .content-2 li a {
@@ -186,7 +199,7 @@ header {
 
 #home {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -300,13 +313,13 @@ header {
 
 .image {
     width: 21vw;
-    height: 55vh;
+    height: 56vh;
     background-image: url(./ahmed-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-top: -7vh;
-    margin-left: -3vw;
+    margin-top: -2.5vh;
+    margin-left: -3.5vw;
 }
 
 .icone {
@@ -842,7 +855,7 @@ header {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
 .content-page-4 {
@@ -952,7 +965,7 @@ header {
 
 .content-page-4-2 {
     width: 60%;
-    height: 100%;
+    height: 95%;
     background-color: black;
     display: flex;
     justify-content: center;
