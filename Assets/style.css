@@ -982,13 +982,14 @@ header {
 }
 
 .contact-page input,
-textarea {
+.contact-page textarea {
     border: 3px solid gray;
-    background-color: black;
     padding: 1vw;
-    color: white;
     height: 2vh;
+    background-color: black;
+    color: white; 
 }
+
 
 #input-cont {
     width: 10vw;
@@ -1001,6 +1002,7 @@ textarea {
 #input-cont-3 {
     height: 15vh;
     width: 23vw;
+    resize: none;
 }
 
 .contact-page h2 {
@@ -1011,8 +1013,7 @@ textarea {
     width: 80%;
 
 }
-
-.contact-page a {
+.contact-button a {
     width: 10vw;
     height: 6.4vh;
     display: flex;
