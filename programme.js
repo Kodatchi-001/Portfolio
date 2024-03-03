@@ -147,5 +147,26 @@ botton.onclick = function () {
         input_4.style.border = '3px solid gray'
 
     }
-
 } 
+
+var respo = document.getElementById('nav-respo')
+var cont = document.getElementsByTagName('ul')[0];
+var cont_2 = document.getElementsByTagName('ul')[1];
+var cont_3 = document.getElementsByTagName('ul')[2];
+
+respo.onclick = function name(params) {
+    document.getElementById('nav-content').style.marginTop = '0vh'
+}
+
+cont.onclick = function name(params) {
+    document.getElementById('nav-content').style.marginTop = '-100vh'
+}
+
+cont_2.onclick = function name(params) {
+    document.getElementById('nav-content').style.marginTop = '-100vh'
+}
+
+cont_3.onclick = function name(params) {
+    document.getElementById('nav-content').style.marginTop = '-100vh'
+}
+

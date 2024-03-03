@@ -19,13 +19,15 @@ header {
     z-index: 999;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.185);
 }
-.nav-content{
+
+.nav-content {
     width: 70%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .content-1 {
     width: 50%;
     height: 100%;
@@ -55,7 +57,7 @@ header {
 }
 
 .content-2 ul {
-    width: 100%;
+    width: 90%;
     height: 100%;
     display: flex;
     display: flex;
@@ -121,7 +123,8 @@ header {
     header {
         background-color: rgb(19, 19, 19);
     }
-    .nav-content{
+
+    .nav-content {
         color: black;
     }
 
@@ -129,8 +132,8 @@ header {
         background-color: white;
         color: black;
     }
-    
-    .content-1 h3{
+
+    .content-1 h3 {
         color: white;
     }
 
@@ -188,13 +191,15 @@ header {
     .link-page-3 a {
         color: white;
     }
-    #page-4{
+
+    #page-4 {
         color: white;
     }
+
     .card-page-4 {
         background-color: gray;
     }
-    
+
 }
 
 #home {
@@ -207,7 +212,7 @@ header {
 
 .home-page {
     width: 70%;
-    height: 80%;
+    height: 70%;
     display: flex;
 }
 
@@ -312,14 +317,14 @@ header {
 }
 
 .image {
-    width: 21vw;
-    height: 56vh;
+    width: 20vw;
+    height: 50vh;
     background-image: url(./ahmed-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-top: -2.5vh;
-    margin-left: -3.5vw;
+    margin-top: -3vh;
+    margin-left: -2vw;
 }
 
 .icone {
@@ -389,7 +394,8 @@ header {
     height: 80%;
     display: flex;
 }
-.button-scrolle{
+
+.button-scrolle {
     width: 3vw;
     height: 6vh;
     background-color: rgb(0, 0, 0);
@@ -401,11 +407,13 @@ header {
     align-items: end;
     border-radius: 10px;
 }
-.button-scrolle a{
+
+.button-scrolle a {
     font-size: 2vw;
     text-decoration: none;
     color: white;
 }
+
 .page-1-info {
     width: 50%;
     height: 100%;
@@ -1000,7 +1008,7 @@ header {
     padding: 1vw;
     height: 2vh;
     background-color: black;
-    color: white; 
+    color: white;
 }
 
 
@@ -1026,6 +1034,7 @@ header {
     width: 80%;
 
 }
+
 .contact-button a {
     width: 10vw;
     height: 6.4vh;
@@ -1042,4 +1051,176 @@ header {
 .contact-page i {
     margin-right: 0.5vw;
 }
+.content-4{
+    display: none;
+}
+.content-2-2{
+    display: none;
+}
+@media (max-width : 500px) {
 
+    header {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(232, 232, 232);
+        position: fixed;
+        z-index: 999;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.185);
+    }
+
+    .nav-content {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-1 {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .content-1 span {
+        width: 6vw;
+        height: 4vh;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .content-2 {
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-color: rgba(0, 0, 0, 0.753);
+        position: absolute;
+        transition: 1s ease-in;
+        backdrop-filter: blur(10px);
+        flex-wrap: wrap;
+    }
+    .content-2-tittle{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+    .content-2-tittle a {
+        margin-right: 3vw;
+        color: white;
+        font-size: 9vw;
+        margin-bottom: -2vh;
+        background-color: red;
+    }
+
+    .content-2 ul {
+        width: 30%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+
+    .content-2 li {
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-2 li a {
+        text-decoration: none;
+        position: 0;
+        color: white;
+        font-size: 5vw;
+        width: 100%;
+    }
+
+    .content-2 li a:after {
+        content: '';
+        position: absolute;
+        background-color: black;
+        width: 0%;
+        height: 3px;
+        display: block;
+        transition: 0.7s;
+    }
+
+    .content-2 li a:hover:after {
+        width: 0%;
+    }
+
+    .content-2 a {
+        text-decoration: none;
+    }
+
+    .content-2 h4 {
+        width: 30vw;
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        font-size: 4vw;
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 100;
+    }
+    .content-2-2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-2-2 a{
+       text-decoration: none;
+       font-size: 7vw;
+       color: white;
+    }
+
+    .content-3 {
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+    }
+
+    .content-3 a {
+        color: black;
+        font-size: 6vw;
+    }
+    .content-4{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .content-4 a{
+       text-decoration: none;
+       font-size: 8vw;
+       color: black;
+    }
+
+}
