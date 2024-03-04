@@ -51,7 +51,7 @@ window.onscroll = function () {
         src_6.style.transition = '3s'
         src_6.style.marginTop = '0'
     }
-    else if (scrollY <= 1100) {
+    else if (scrollY <= 1200) {
         //Move-1
         src_4.style.opacity = '0'
         src_4.style.marginTop = '-20vh'
@@ -77,7 +77,7 @@ window.onscroll = function () {
         src_9.style.transition = '3.5s'
         src_9.style.transform = 'scale(1)'
     }
-    else if (scrollY <= 1900) {
+    else if (scrollY <= 2100) {
         //Move-1
         src_7.style.opacity = '0'
         src_7.style.transform = 'scale(0.5)'
