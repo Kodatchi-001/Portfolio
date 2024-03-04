@@ -141,10 +141,17 @@ botton.onclick = function () {
         cond.test(input_1.value) == false ||
         input_2.value.includes('@gmail.com') == false ||
         cond.test(input_3.value) == false ||
-        cond.test(input_4.value) == false ||
-        alert('Your email et vrai')
+        cond.test(input_4.value) == false 
     ) {
-        alert('Rescpecter le champ correctement.');
+        alert('Rescpecter le champ correctement ');
+    }
+     else if (
+        cond.test(input_1.value) == true ||
+        input_2.value.includes('@gmail.com') == true ||
+        cond.test(input_3.value) == true ||
+        cond.test(input_4.value) == true 
+    ) {
+        alert('votre information et rescpecte');
     }
 }
 
