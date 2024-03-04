@@ -182,6 +182,7 @@ header {
 
     .tittle-page-2 h1 {
         color: white;
+
     }
 
     .card-info {
@@ -1514,7 +1515,7 @@ header {
 
     .tittle-content h1 {
         width: 100%;
-        font-size: 11vw;
+        font-size: 9vw;
         text-align: center;
     }
 
@@ -1537,7 +1538,7 @@ header {
     }
 
     .tittle-content-1 p {
-        font-size: 6vw;
+        font-size: 4vw;
         width: 100%;
         text-align: center;
     }
@@ -1559,7 +1560,7 @@ header {
     }
 
     .tittle-content-1 ul {
-        width: 100%;
+        width: 90%;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -1569,11 +1570,11 @@ header {
     }
 
     .tittle-content-1 ul li{
-        font-size: 5vw;
+        font-size: 4vw;
     }
     #bolde-tittle {
         font-weight: 900;
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
     .tittle-content-2 {
@@ -1596,9 +1597,9 @@ header {
     }
 
     .tittle-content-2 h1 {
-        width: 14vw;
+        width: 10vw;
         height: 6.5vh;
-        font-size: 8vw;
+        font-size: 5vw;
         display: flex;
         justify-content: center;
         align-items: center;

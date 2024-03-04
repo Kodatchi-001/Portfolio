@@ -1,6 +1,11 @@
 var test = document.getElementById('mode')
+var test_2 = document.getElementById('mode-2')
 
 test.onclick = function () {
+    document.body.classList.toggle('theme')
+    document.querySelector('body').style.transition = '1s'
+}
+test_2.onclick = function () {
     document.body.classList.toggle('theme')
     document.querySelector('body').style.transition = '1s'
 }
@@ -96,58 +101,52 @@ var botton = document.getElementById('button-form');
 var input_1 = document.getElementsByTagName('input')[0];
 var input_2 = document.getElementsByTagName('input')[1];
 var input_3 = document.getElementsByTagName('input')[2];
-var input_4 = document.querySelector('textarea');
-
+var input_4 = document.getElementsByTagName('textarea')[0];
+var cond = /^[a-zA-Z-\s]+$/
 botton.onclick = function () {
     // input__1
-    if (Number(input_1.value) || input_1.value == '@') {
-        input_1.style.border = '3px solid red'
+    if (cond.test(input_1.value) == false || input_1.value.trim() === '') {
+        input_1.style.border = '2px solid red'
         input_1.value = ''
+    } 
+    else  {
+        input_1.style.border = '2px solid green'
     }
-    else if (String(input_1.value)) {
-        input_1.style.border = '3px solid green'
-    }
-    else {
-        input_1.style.border = '3px solid gray'
-    }
-
     // input__2
-    if (Number(input_2.value)) {
-        input_2.style.border = '3px solid red'
+    if (input_2.value.includes('@gmail.com') === false||input_2.value.trim() === '') {
+        input_2.style.border = '2px solid red'
         input_2.value = ''
-    }
-    else if (String(input_2.value) || input_2.value == '@') {
-        input_2.style.border = '3px solid green'
-    }
+    } 
     else {
-        input_2.style.border = '3px solid gray'
+        input_2.style.border = '2px solid green'
     }
-
     // input__3
-    if (Number(input_3.value) || input_3.value == '@') {
-        input_3.style.border = '3px solid red'
+    if (cond.test(input_3.value) == false || input_3.value.trim() === '') {
+        input_3.style.border = '2px solid red'
         input_3.value = ''
+    } 
+    else  {
+        input_3.style.border = '2px solid green'
     }
-    else if (String(input_3.value)) {
-        input_3.style.border = '3px solid green'
-    }
-    else {
-        input_3.style.border = '3px solid gray'
-    }
-
     // input__4
-    if (Number(input_4.value) || input_4.value == '@') {
-        input_4.style.border = '3px solid red'
+    if (cond.test(input_4.value) == false || input_4.value.trim() === '') {
+        input_4.style.border = '2px solid red'
         input_4.value = ''
+    } 
+    else  {
+        input_4.style.border = '2px solid green'
     }
-    else if (String(input_4.value)) {
-        input_4.style.border = '3px solid green'
+    // verifier button
+    if (
+        cond.test(input_1.value) == false ||
+        input_2.value.includes('@gmail.com') == false ||
+        cond.test(input_3.value) == false ||
+        cond.test(input_4.value) == false ||
+        alert('Your email et vrai')
+    ) {
+        alert('Rescpecter le champ correctement.');
     }
-    else {
-        input_4.style.border = '3px solid gray'
-
-    }
-} 
+}
 
 var respo = document.getElementById('nav-respo')
 var cont = document.getElementsByTagName('ul')[0];
