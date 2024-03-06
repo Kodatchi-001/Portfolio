@@ -1061,8 +1061,7 @@ header {
     display: none;
 }
 
-@media (max-width : 500px) {
-
+@media (max-width :500px) {
     header {
         width: 100%;
         height: 10vh;
@@ -1093,7 +1092,7 @@ header {
     }
 
     .content-1 span {
-        width: 6vw;
+        width: 7vw;
         height: 4vh;
         background-color: black;
         color: white;
@@ -1366,12 +1365,12 @@ header {
 
     .image {
         width: 100%;
-        height: 51vh;
+        height: 100%;
         background-image: url(./ahmed-1.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        margin-top: -4vh;
+        margin-top: -3vh;
         margin-left: -3vh;
     }
 
@@ -1662,7 +1661,7 @@ header {
     }
 
     .card-1 {
-        width: 75vw;
+        width: 80vw;
         height: 60vh;
         border: 5px solid;
         position: initial;
@@ -1761,7 +1760,7 @@ header {
     }
 
     .card-info {
-        width: 75vw;
+        width: 80vw;
         height: 60vh;
         display: flex;
         flex-wrap: wrap;
@@ -1973,7 +1972,7 @@ header {
     }
 
     .card-page-4 {
-        width: 75vw;
+        width: 80vw;
         height: 45vh;
         background-color: rgb(193, 193, 193);
         margin-right: 0;
