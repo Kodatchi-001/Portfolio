@@ -23,7 +23,7 @@ var src_9 = document.getElementById('card-6')
 
 window.onscroll = function () {
     //page-1
-    if (scrollY >= 600) {
+    if (scrollY >= 550) {
         //Move-1
         src_2.style.opacity = '1'
         src_2.style.transition = '1s'
@@ -108,15 +108,15 @@ botton.onclick = function () {
     if (cond.test(input_1.value) == false || input_1.value.trim() === '') {
         input_1.style.border = '2px solid red'
         input_1.value = ''
-    } 
-    else  {
+    }
+    else {
         input_1.style.border = '2px solid green'
     }
     // input__2
-    if (input_2.value.includes('@gmail.com') === false||input_2.value.trim() === '') {
+    if (input_2.value.includes('@gmail.com') === false || input_2.value.trim() === '') {
         input_2.style.border = '2px solid red'
         input_2.value = ''
-    } 
+    }
     else {
         input_2.style.border = '2px solid green'
     }
@@ -124,16 +124,16 @@ botton.onclick = function () {
     if (cond.test(input_3.value) == false || input_3.value.trim() === '') {
         input_3.style.border = '2px solid red'
         input_3.value = ''
-    } 
-    else  {
+    }
+    else {
         input_3.style.border = '2px solid green'
     }
     // input__4
     if (cond.test(input_4.value) == false || input_4.value.trim() === '') {
         input_4.style.border = '2px solid red'
         input_4.value = ''
-    } 
-    else  {
+    }
+    else {
         input_4.style.border = '2px solid green'
     }
     // verifier button
@@ -141,17 +141,17 @@ botton.onclick = function () {
         cond.test(input_1.value) == false ||
         input_2.value.includes('@gmail.com') == false ||
         cond.test(input_3.value) == false ||
-        cond.test(input_4.value) == false 
+        cond.test(input_4.value) == false
     ) {
-        alert('Rescpecter le champ correctement ');
+        alert('Respecter le champ correctement ');
     }
-     else if (
+    else if (
         cond.test(input_1.value) == true ||
         input_2.value.includes('@gmail.com') == true ||
         cond.test(input_3.value) == true ||
-        cond.test(input_4.value) == true 
+        cond.test(input_4.value) == true
     ) {
-        alert('votre information et rescpecte');
+        alert('Votre information et respecter');
     }
 }
 
@@ -163,7 +163,6 @@ var cont_3 = document.getElementsByTagName('ul')[2];
 respo.onclick = function name(params) {
     document.getElementById('nav-content').style.marginTop = '0vh'
 }
-
 cont.onclick = function name(params) {
     document.getElementById('nav-content').style.marginTop = '-100vh'
 }
@@ -175,4 +174,7 @@ cont_2.onclick = function name(params) {
 cont_3.onclick = function name(params) {
     document.getElementById('nav-content').style.marginTop = '-100vh'
 }
+
+
+
 
