@@ -9,6 +9,7 @@ test_2.onclick = function () {
     document.body.classList.toggle('theme')
     document.querySelector('body').style.transition = '1s'
 }
+/*
 var src_2 = document.getElementById('test-1')
 var src_3 = document.getElementById('test-2')
 
@@ -94,7 +95,7 @@ window.onscroll = function () {
     }
 
 };
-
+*/
 var botton = document.getElementById('button-form');
 var input_1 = document.getElementsByTagName('input')[0];
 var input_2 = document.getElementsByTagName('input')[1];
