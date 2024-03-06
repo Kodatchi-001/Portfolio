@@ -1083,8 +1083,8 @@ header {
     }
 
     .content-1 span {
-        width: 8vw;
-        height: 5vh;
+        width: 20%;
+        height: 50%;
         background-color: black;
         color: white;
         display: flex;
@@ -1538,14 +1538,10 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: black;
+        background-color: rgb(255, 106, 0);
         color: white;
         font-size: 1vw;
         transition: 0.7s;
-    }
-
-    .tittle-content h4:hover {
-        background-color: rgb(255, 106, 0);
     }
 
     .tittle-content-1 ul {
@@ -1578,8 +1574,9 @@ header {
 
     .tittle-content-2 h4 {
         width: 35vw;
-        font-size: 4.5vw;
+        font-size: 4vw;
         gap: 5px;
+        background-color: rgb(255, 106, 0);
     }
 
     .tittle-content-2 a {
@@ -1593,13 +1590,9 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 3px solid black;
+        border: 3px solid rgb(255, 106, 0);
         color: black;
         transition: 0.7s;
-    }
-
-    .tittle-content-2 h1:hover {
-        border: 3px solid rgb(255, 106, 0);
     }
 
     #page-2 {
@@ -1630,7 +1623,6 @@ header {
     .tittle-page-2 h1 {
         font-size: 11vw;
     }
-
     .info-page-2 {
         width: 100%;
         height: 100%;
@@ -1639,7 +1631,7 @@ header {
         align-items: start;
         justify-content: space-around;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 30px;
     }
 
     .card-border {
@@ -1661,23 +1653,11 @@ header {
         align-items: center;
         background-color: rgb(232, 232, 232);
         border: 5px solid rgb(255, 102, 0);
+        border-radius: 70px 0px 70px 0px;
     }
 
     .card-2 {
-        width: 20vw;
-        height: 50vh;
-        border: 5px solid;
-        position: absolute;
-        transition: 0.5s ease-out;
-        border: 5px solid rgb(255, 102, 0);
         display: none;
-    }
-
-    .card-border:hover {
-        .card-2 {
-            margin-left: 0;
-            margin-top: 0;
-        }
     }
 
     .card-content {
@@ -1712,7 +1692,7 @@ header {
         position: absolute;
         background-color: rgb(255, 123, 0);
         width: 10vw;
-        height: 6vh;
+        height: 5vh;
         transition: 0.7s;
         margin-top: -1vh;
         margin-right: -5vw;
@@ -1721,7 +1701,7 @@ header {
     }
 
     .card-content p {
-        width: 100%;
+        width: 80%;
         margin-top: 1vh;
         font-size: 4vw;
     }
@@ -1732,6 +1712,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 5vh;
     }
 
     .content-page-3 {
@@ -1747,7 +1728,7 @@ header {
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 30px;
     }
 
     .card-info {
@@ -1759,6 +1740,8 @@ header {
         margin-left: auto;
         margin-right: auto;
         background-color: white;
+        border-radius: 20px;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.393);
     }
 
     .card-info:hover {
@@ -1789,6 +1772,7 @@ header {
         background-size: cover;
         filter: grayscale(0%);
         transition: 0.8s ease-in;
+        border-radius: 20px 20px 0px 0px;
     }
 
     #img-1 {
@@ -1922,9 +1906,9 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 7vw;
+        font-size: 6vw;
         text-decoration: none;
-        color: black;
+        color: rgb(255, 98, 0);
         transition: 0.5s ease-in;
     }
 
@@ -2043,13 +2027,9 @@ header {
         justify-content: center;
         align-items: center;
         transition: 0.7s ease-in;
-        background-color: rgb(121, 121, 121);
+        background-color: black;
         text-decoration: none;
         color: white;
-    }
-
-    .info-2 h1:hover {
-        background-color: black;
     }
 
     .content-page-4-2 {
@@ -2062,7 +2042,7 @@ header {
     }
 
     .contact-page {
-        width: 80%;
+        width: 90%;
         height: 80%;
         display: flex;
         justify-content: center;
@@ -2073,7 +2053,7 @@ header {
     .contact-page h1 {
         width: 90%;
         color: white;
-        font-size: 7vw;
+        font-size: 6vw;
         text-align: center;
     }
 
