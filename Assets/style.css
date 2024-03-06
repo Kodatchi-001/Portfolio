@@ -1095,14 +1095,15 @@ header {
     }
 
     .content-1 span {
-        width: 6.5vw;
-        height: 4vh;
+        width: 8vw;
+        height: 5vh;
         background-color: black;
         color: white;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 50%;
+        font-size: 4vw;
     }
     #nav-content-1{
         display: none;
@@ -1301,6 +1302,7 @@ header {
         margin-top: -4.8vh;
         z-index: -1;
         animation: 4s mov-4;
+        width: 100%;
     }
 
     @keyframes mov-4 {
@@ -1309,7 +1311,7 @@ header {
         }
 
         to {
-            width: 100%;
+            width: 0%;
         }
     }
 
@@ -1438,6 +1440,7 @@ header {
         justify-content: center;
         align-items: center;
         margin-top: 10vh;
+        overflow: hidden;
     }
 
     .content-page-1 {
