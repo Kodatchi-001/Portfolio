@@ -1067,7 +1067,7 @@ header {
 @media (max-width :500px) {
     header {
         width: 100%;
-        height: 10vh;
+        height: 9vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1095,7 +1095,7 @@ header {
     }
 
     .content-1 span {
-        width: 7vw;
+        width: 6.5vw;
         height: 4vh;
         background-color: black;
         color: white;
@@ -1113,7 +1113,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: end;
-        background-color: rgba(0, 0, 0, 0.753);
+        background-color: rgba(0, 0, 0, 0.653);
         position: absolute;
         transition: 1s ease-in;
         backdrop-filter: blur(10px);
@@ -1160,7 +1160,7 @@ header {
         text-decoration: none;
         position: 0;
         color: white;
-        font-size: 5vw;
+        font-size: 6vw;
         width: 100%;
     }
 
@@ -1190,7 +1190,7 @@ header {
         align-items: center;
         background-color: rgba(0, 0, 0, 0);
         color: white;
-        font-size: 4vw;
+        font-size: 5vw;
         margin-left: auto;
         margin-right: auto;
         font-weight: 100;
@@ -1301,7 +1301,6 @@ header {
         margin-top: -4.8vh;
         z-index: -1;
         animation: 4s mov-4;
-        width: 100%;
     }
 
     @keyframes mov-4 {
@@ -1666,7 +1665,7 @@ header {
 
     .card-1 {
         width: 80vw;
-        height: 60vh;
+        height: 40vh;
         border: 5px solid;
         position: initial;
         z-index: 1;
@@ -1684,23 +1683,24 @@ header {
         position: absolute;
         transition: 0.5s ease-out;
         border: 5px solid rgb(255, 102, 0);
+        display: none;
     }
 
     .card-border:hover {
         .card-2 {
-            margin-left: 3vw;
-            margin-top: 6vh;
+            margin-left: 0;
+            margin-top: 0;
         }
     }
 
     .card-content {
         width: 80%;
-        height: 50%;
+        height: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: 10vh;
+        margin-top: 0;
         padding-left: 2vw;
     }
 
@@ -1736,7 +1736,7 @@ header {
     .card-content p {
         width: 100%;
         margin-top: 1vh;
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     #page-3 {
@@ -1776,7 +1776,7 @@ header {
 
     .card-info:hover {
         background-color: white;
-        transform: scale(1.1);
+        transform: scale(1);
 
         .info-image-content {
             filter: grayscale(0%);
