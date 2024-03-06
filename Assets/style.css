@@ -1112,8 +1112,6 @@ header {
         position: absolute;
         transition: 1s ease-in;
         backdrop-filter: blur(10px);
-        flex-wrap: wrap;
-        margin-top: -100vh;
     }
 
     .content-2-tittle {
