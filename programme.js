@@ -161,18 +161,18 @@ var cont_2 = document.getElementsByTagName('ul')[1];
 var cont_3 = document.getElementsByTagName('ul')[2];
 
 respo.onclick = function name(params) {
-    document.getElementById('nav-content').style.marginTop = '0vh'
+    document.getElementById('nav-content-2').style.marginTop = '0vh'
 }
 cont.onclick = function name(params) {
-    document.getElementById('nav-content').style.marginTop = '-100vh'
+    document.getElementById('nav-content-2').style.marginTop = '-100vh'
 }
 
 cont_2.onclick = function name(params) {
-    document.getElementById('nav-content').style.marginTop = '-100vh'
+    document.getElementById('nav-content-2').style.marginTop = '-100vh'
 }
 
 cont_3.onclick = function name(params) {
-    document.getElementById('nav-content').style.marginTop = '-100vh'
+    document.getElementById('nav-content-2').style.marginTop = '-100vh'
 }
 
 
