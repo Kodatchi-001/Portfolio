@@ -1347,7 +1347,7 @@ header {
         background-position: center;
         background-size: cover;
         margin-top: -2.8vh;
-        margin-left: -4vw;
+        margin-left: -5vw;
         animation: 3s mov-4;
     }
 
@@ -1359,7 +1359,7 @@ header {
 
         to {
             margin-top: -2.8vh;
-            margin-left: -4vw;
+            margin-left: -5vw;
         }
     }
 
@@ -1467,7 +1467,7 @@ header {
         height: 60vh;
         display: flex;
         background-color: rgb(210, 210, 210);
-        border-bottom: 5px solid rgb(255, 115, 0);
+        border-bottom: 5px solid rgb(55, 0, 255);
         margin-left: 15vw;
         margin-top: 5vh;
     }
@@ -1584,9 +1584,9 @@ header {
     }
 
     .tittle-content-2 h1 {
-        width: 10vw;
+        width: 12vw;
         height: 6.5vh;
-        font-size: 5vw;
+        font-size: 6vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1768,7 +1768,7 @@ header {
     .info-image-content {
         width: 100%;
         height: 100%;
-        background-position: left;
+        background-position: center;
         background-size: cover;
         filter: grayscale(0%);
         transition: 0.8s ease-in;
@@ -1834,7 +1834,7 @@ header {
         justify-content: center;
         align-items: center;
         text-decoration: none;
-        font-size: 8vw;
+        font-size: 9vw;
         transition: 0.5s ease-in;
         z-index: 1;
         background-color: rgb(255, 98, 0);
