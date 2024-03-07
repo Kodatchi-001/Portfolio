@@ -615,6 +615,7 @@ header {
 
 .card-content h1 {
     width: 100%;
+    margin-left: -2vw;
 }
 
 .card-content h1 i {
@@ -626,6 +627,7 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-left: -1vw;
 }
 
 .card-content i:after {
@@ -641,7 +643,7 @@ header {
 }
 
 .card-content p {
-    width: 90%;
+    width: 100%;
     margin-top: 1vh;
 }
 
@@ -1083,15 +1085,15 @@ header {
     }
 
     .content-1 span {
-        width: 15%;
-        height: 40%;
+        width: 20%;
+        height: 45%;
         background-color: black;
         color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 50%;
-        font-size: 3vw;
+        border-radius: 20%;
+        font-size: 3.5vw;
     }
 
     #nav-content-1 {
@@ -1127,18 +1129,8 @@ header {
     }
     .nav-tittle h1{
         color: rgb(255, 115, 0);
-        width: 90%;
+        width: 100%;
         text-align: center;
-        margin-left: 10vw;
-    }
-    .nav-tittle h2{
-        width: 10%;
-        margin-right: 2vw;
-        color: white;
-        font-size: 10vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .content-2 li {
         width: 100%;
@@ -1179,16 +1171,10 @@ header {
     .content-2 h4 {
         width: 50vw;
         height: 6vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         background-color: rgba(0, 0, 0, 0);
         color: white;
         font-size: 6vw;
-        margin-left: auto;
-        margin-right: auto;
-        font-weight: 100;
-        font-weight: 200;
+        font-weight: 400;
     }
 
     .content-2-2 {
@@ -1694,17 +1680,17 @@ header {
         content: '';
         position: absolute;
         background-color: rgb(255, 123, 0);
-        width: 10vw;
+        width: 8vw;
         height: 5vh;
         transition: 0.7s;
-        margin-top: -1vh;
-        margin-right: -5vw;
+        margin-top: -2vh;
+        margin-right: -6vw;
         z-index: -1;
-        border-radius: 50px;
+        border-radius: 5px;
     }
 
     .card-content p {
-        width: 80%;
+        width: 100%;
         margin-top: 1vh;
         font-size: 4vw;
     }
@@ -1771,7 +1757,7 @@ header {
     .info-image-content {
         width: 100%;
         height: 100%;
-        background-position: center;
+        background-position: top;
         background-size: cover;
         filter: grayscale(0%);
         transition: 0.8s ease-in;
