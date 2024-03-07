@@ -22,76 +22,152 @@ var src_8 = document.getElementById('card-5')
 var src_9 = document.getElementById('card-6')
 
 window.onscroll = function () {
-    //page-1
-    if (scrollY >= 550) {
-        //Move-1
-        src_2.style.opacity = '1'
-        src_2.style.transition = '1s'
-        src_2.style.transform = 'scale(1)'
-        //Move-2
-        src_3.style.opacity = '1'
-        src_3.style.transition = '1s'
-        src_3.style.marginRight = '0'
-    }
-    else if (scrollY <= 900) {
-        //Move-1
-        src_2.style.opacity = '0'
-        src_2.style.transform = 'scale(0)'
-        //Move-2
-        src_3.style.opacity = '0'
-        src_3.style.marginRight = '-20vw'
-    }
-    //page-2
-    if (scrollY >= 1405) {
-        //Move-1
-        src_4.style.opacity = '1'
-        src_4.style.transition = '1s'
-        src_4.style.marginTop = '0vh'
-        //Move-2
-        src_5.style.opacity = '1'
-        src_5.style.transition = '2s'
-        src_5.style.marginTop = '0vh'
-        //Move-3
-        src_6.style.opacity = '1'
-        src_6.style.transition = '3s'
-        src_6.style.marginTop = '0'
-    }
-    else if (scrollY <= 1200) {
-        //Move-1
-        src_4.style.opacity = '0'
-        src_4.style.marginTop = '-20vh'
-        //Move-2
-        src_5.style.opacity = '0'
-        src_5.style.marginTop = '-20vh'
-        //Move-3
-        src_6.style.opacity = '0'
-        src_6.style.marginTop = '-20vh'
-    }
-    //page-3
-    if (scrollY >= 2100) {
-        //Move-1
-        src_7.style.opacity = '1'
-        src_7.style.transition = '1.5s'
-        src_7.style.transform = 'scale(1)'
-        //Move-2
-        src_8.style.opacity = '1'
-        src_8.style.transition = '2.5s'
-        src_8.style.transform = 'scale(1)'
-        //Move-3
-        src_9.style.opacity = '1'
-        src_9.style.transition = '3.5s'
-        src_9.style.transform = 'scale(1)'
-    }
-    else if (scrollY <= 2100) {
-        //Move-1
-        src_7.style.opacity = '0'
-        src_7.style.transform = 'scale(0.5)'
-        //Move-2
-        src_8.style.opacity = '0'
-        src_8.style.transform = 'scale(0.5)'
-        //Move-3
-        src_9.style.opacity = '0'
-        src_9.style.transform = 'scale(0.5)'
+    if (window.innerWidth <= 520) {
+        //page-1
+        if (scrollY >= 550) {
+            //Move-1
+            src_2.style.opacity = '1'
+            src_2.style.transition = '1s'
+            src_2.style.transform = 'scale(1)'
+            //Move-2
+            src_3.style.opacity = '1'
+            src_3.style.transition = '1s'
+            src_3.style.marginRight = '0'
+        }
+        else if (scrollY <= 900) {
+            //Move-1
+            src_2.style.opacity = '0'
+            src_2.style.transform = 'scale(0)'
+            //Move-2
+            src_3.style.opacity = '0'
+            src_3.style.marginRight = '-20vw'
+        }
+        //page-2
+        if (scrollY >= 1480) {
+            //Move-1
+            src_4.style.opacity = '1'
+            src_4.style.transition = '1s'
+            src_4.style.transform = 'scale(1)'
+            //Move-2
+            src_5.style.opacity = '1'
+            src_5.style.transition = '3s'
+            src_5.style.transform = 'scale(1)'
+            //Move-3
+            src_6.style.opacity = '1'
+            src_6.style.transition = '5s'
+            src_6.style.transform = 'scale(1)'
+        }
+        else if (scrollY <= 1300) {
+            //Move-1
+            src_4.style.opacity = '0'
+            src_4.style.transform = 'scale(0)'
+            //Move-2
+            src_5.style.opacity = '0'
+            src_5.style.transform = 'scale(0)'
+            //Move-3
+            src_6.style.opacity = '0'
+            src_6.style.transform = 'scale(0)'
+        }
+        //page-3
+        if (scrollY >= 2700) {
+            //Move-1
+            src_7.style.opacity = '1'
+            src_7.style.transition = '1.5s'
+            src_7.style.transform = 'scale(1)'
+            //Move-2
+            src_8.style.opacity = '1'
+            src_8.style.transition = '2.5s'
+            src_8.style.transform = 'scale(1)'
+            //Move-3
+            src_9.style.opacity = '1'
+            src_9.style.transition = '3.5s'
+            src_9.style.transform = 'scale(1)'
+        }
+        else if (scrollY <= 2600) {
+            //Move-1
+            src_7.style.opacity = '0'
+            src_7.style.transform = 'scale(0.5)'
+            //Move-2
+            src_8.style.opacity = '0'
+            src_8.style.transform = 'scale(0.5)'
+            //Move-3
+            src_9.style.opacity = '0'
+            src_9.style.transform = 'scale(0.5)'
+        }
+
+    }else if (window.innerWidth <= 2000) {
+        //page-1
+        if (scrollY >= 550) {
+            //Move-1
+            src_2.style.opacity = '1'
+            src_2.style.transition = '1s'
+            src_2.style.transform = 'scale(1)'
+            //Move-2
+            src_3.style.opacity = '1'
+            src_3.style.transition = '1s'
+            src_3.style.marginRight = '0'
+        }
+        else if (scrollY <= 900) {
+            //Move-1
+            src_2.style.opacity = '0'
+            src_2.style.transform = 'scale(0)'
+            //Move-2
+            src_3.style.opacity = '0'
+            src_3.style.marginRight = '-20vw'
+        }
+        //page-2
+        if (scrollY >= 1405) {
+            //Move-1
+            src_4.style.opacity = '1'
+            src_4.style.transition = '1s'
+            src_4.style.marginTop = '0vh'
+            //Move-2
+            src_5.style.opacity = '1'
+            src_5.style.transition = '2s'
+            src_5.style.marginTop = '0vh'
+            //Move-3
+            src_6.style.opacity = '1'
+            src_6.style.transition = '3s'
+            src_6.style.marginTop = '0'
+        }
+        else if (scrollY <= 1200) {
+            //Move-1
+            src_4.style.opacity = '0'
+            src_4.style.marginTop = '-20vh'
+            //Move-2
+            src_5.style.opacity = '0'
+            src_5.style.marginTop = '-20vh'
+            //Move-3
+            src_6.style.opacity = '0'
+            src_6.style.marginTop = '-20vh'
+        }
+        //page-3
+        if (scrollY >= 2100) {
+            //Move-1
+            src_7.style.opacity = '1'
+            src_7.style.transition = '1.5s'
+            src_7.style.transform = 'scale(1)'
+            //Move-2
+            src_8.style.opacity = '1'
+            src_8.style.transition = '2.5s'
+            src_8.style.transform = 'scale(1)'
+            //Move-3
+            src_9.style.opacity = '1'
+            src_9.style.transition = '3.5s'
+            src_9.style.transform = 'scale(1)'
+        }
+        else if (scrollY <= 2100) {
+            //Move-1
+            src_7.style.opacity = '0'
+            src_7.style.transform = 'scale(0.5)'
+            //Move-2
+            src_8.style.opacity = '0'
+            src_8.style.transform = 'scale(0.5)'
+            //Move-3
+            src_9.style.opacity = '0'
+            src_9.style.transform = 'scale(0.5)'
+        }
+
     }
 
 };
