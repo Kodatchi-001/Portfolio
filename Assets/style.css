@@ -798,7 +798,7 @@ header {
     font-size: 1.1vw;
     text-decoration: none;
     color: black;
-    transition: 0.5s ease-in;
+    transition: 0.2s ease-in;
 }
 
 .info-tittle-3 a:hover {
@@ -2193,7 +2193,7 @@ header {
         text-decoration: none;
         position: 0;
         color: white;
-        font-size: 6vw;
+        font-size: 4vw;
         width: 100%;
     }
 
@@ -2220,7 +2220,7 @@ header {
         height: 6vh;
         background-color: rgba(0, 0, 0, 0);
         color: white;
-        font-size: 6vw;
+        font-size: 4vw;
         font-weight: 400;
     }
 
