@@ -167,9 +167,7 @@ window.onscroll = function () {
             src_9.style.opacity = '0'
             src_9.style.transform = 'scale(0.5)'
         }
-
     }
-
 };
 
 var botton = document.getElementById('button-form');
