@@ -97,7 +97,7 @@ window.onscroll = function () {
 
     }else if (window.innerWidth <= 2000) {
         //page-1
-        if (scrollY >= 550) {
+        if (scrollY >= 380) {
             //Move-1
             src_2.style.opacity = '1'
             src_2.style.transition = '1s'
@@ -107,7 +107,7 @@ window.onscroll = function () {
             src_3.style.transition = '1s'
             src_3.style.marginRight = '0'
         }
-        else if (scrollY <= 900) {
+        else if (scrollY <= 500) {
             //Move-1
             src_2.style.opacity = '0'
             src_2.style.transform = 'scale(0)'
@@ -142,18 +142,18 @@ window.onscroll = function () {
             src_6.style.marginTop = '-20vh'
         }
         //page-3
-        if (scrollY >= 2100) {
+        if (scrollY >= 2110) {
             //Move-1
             src_7.style.opacity = '1'
-            src_7.style.transition = '1.5s'
+            src_7.style.transition = '1s'
             src_7.style.transform = 'scale(1)'
             //Move-2
             src_8.style.opacity = '1'
-            src_8.style.transition = '2.5s'
+            src_8.style.transition = '1s'
             src_8.style.transform = 'scale(1)'
             //Move-3
             src_9.style.opacity = '1'
-            src_9.style.transition = '3.5s'
+            src_9.style.transition = '1s'
             src_9.style.transform = 'scale(1)'
         }
         else if (scrollY <= 2100) {

@@ -200,7 +200,7 @@ header {
         color: white;
     }
 }
-
+/*home*/
 #home {
     width: 100%;
     height: 100vh;
@@ -358,7 +358,7 @@ header {
 .content-icone h1:hover {
     background-color: black;
 }
-
+/*page-1*/
 #page-1 {
     width: 100%;
     height: 100vh;
@@ -524,7 +524,7 @@ header {
 .tittle-content-2 h1:hover {
     border: 3px solid rgb(255, 106, 0);
 }
-
+/*page-2*/
 #page-2 {
     width: 100%;
     height: 100vh;
@@ -636,7 +636,7 @@ header {
     width: 100%;
     margin-top: 1vh;
 }
-
+/*page-3*/
 #page-3 {
     width: 100%;
     height: 100vh;
@@ -660,22 +660,12 @@ header {
 }
 
 .card-info {
-    width: 18vw;
+    width: 20vw;
     height: 50vh;
     display: flex;
     flex-wrap: wrap;
     transition: 0.5s ease-out;
     background-color: white;
-}
-
-.card-info:hover {
-    .info-image-content {
-        filter: grayscale(0%);
-    }
-
-    .info-tittle-1-2 h2 {
-        background-color: rgb(255, 98, 0);
-    }
 }
 
 .info-image {
@@ -690,7 +680,6 @@ header {
     height: 90%;
     background-position: center;
     background-size: cover;
-    filter: grayscale(100%);
     transition: 0.5s ease-in;
 }
 .info-image-content img{
@@ -737,7 +726,7 @@ header {
 .info-tittle-1-2 h2 {
     margin-top: -6vh;
     margin-left: 1.5vw;
-    background-color: black;
+    background-color: rgb(255, 98, 0);
     height: 6vh;
     width: 3vw;
     color: white;
@@ -826,7 +815,7 @@ header {
 .link-page-3 a:hover {
     color: rgb(255, 98, 0);
 }
-
+/*page-4*/
 #page-4 {
     width: 100%;
     height: 100vh;
