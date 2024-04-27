@@ -150,7 +150,7 @@ window.onscroll = function () {
             src_6.style.marginTop = '-20vh'
         }
         //page-3
-        if (scrollY >= 2110) {
+        if (scrollY >= 2050) {
             //Move-1
             src_7.style.opacity = '1'
             src_7.style.transition = '1s'
@@ -164,7 +164,7 @@ window.onscroll = function () {
             src_9.style.transition = '1s'
             src_9.style.transform = 'scale(1)'
         }
-        else if (scrollY <= 2100) {
+        else if (scrollY <= 1900) {
             //Move-1
             src_7.style.opacity = '0'
             src_7.style.transform = 'scale(0.5)'
