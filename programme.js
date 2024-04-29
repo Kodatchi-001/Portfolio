@@ -22,7 +22,7 @@ var src_8 = document.getElementById('card-5')
 var src_9 = document.getElementById('card-6')
 
 window.onscroll = function () {
-    if (window.innerWidth <= 520) {
+    if (window.innerWidth <= 600) {
         //page-1
         if (scrollY >= 550) {
             //Move-1
