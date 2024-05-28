@@ -1351,6 +1351,8 @@ header {
     .tittle-content-2 {
         width: 80%;
         gap: 10px;
+        display: flex;
+        justify-content: center;
         margin-top: 2vh;
     }
 
@@ -1484,8 +1486,8 @@ header {
     }
 
     .card-info {
-        width: 80vw;
-        height: 55vh;
+        width: 90%;
+        height: 50vh;
         display: flex;
         flex-wrap: wrap;
         margin-left: auto;
@@ -1528,8 +1530,8 @@ header {
 
     .info-tittle-1-2 h2 {
         width: 15vw;
-        height: 9vh;
-        margin-top: -5vh;
+        height: 7vh;
+        margin-top: -4vh;
         margin-left: 10vw;
         font-size: 9vw;
         border-radius: 10px;
