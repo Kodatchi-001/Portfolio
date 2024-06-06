@@ -1,260 +1,102 @@
-var test = document.getElementById('mode')
-var test_2 = document.getElementById('mode-2')
-
-test.onclick = function () {
-    document.body.classList.toggle('theme')
-    document.querySelector('body').style.transition = '1s'
+//navbar_scroll
+function navbar_scroll() {
+    const header = document.querySelector('header');
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 0) {
+            header.style.boxShadow = '0px 0px 20px rgba(0, 0, 0, 0.185)';
+        } else {
+            header.style.boxShadow = 'none';
+        }
+    });
 }
-test_2.onclick = function () {
-    document.body.classList.toggle('theme')
-    document.querySelector('body').style.transition = '1s'
-}
-
-var src_2 = document.getElementById('test-1')
-var src_3 = document.getElementById('test-2')
-
-var src_4 = document.getElementById('card-1')
-var src_5 = document.getElementById('card-2')
-var src_6 = document.getElementById('card-3')
-
-var src_7 = document.getElementById('card-4')
-var src_8 = document.getElementById('card-5')
-var src_9 = document.getElementById('card-6')
-
-window.onscroll = function () {
-    if (window.innerWidth <= 1024) {
-        //page-1
-        if (scrollY >= 550) {
-            //Move-1
-            src_2.style.opacity = '1'
-            src_2.style.transition = '1s'
-            src_2.style.transform = 'scale(1)'
-            //Move-2
-            src_3.style.opacity = '1'
-            src_3.style.transition = '1s'
-            src_3.style.marginRight = '0'
-        }
-        else if (scrollY <= 900) {
-            //Move-1
-            src_2.style.opacity = '1'
-            src_2.style.transition = '1s'
-            src_2.style.transform = 'scale(1)'
-            //Move-2
-            src_3.style.opacity = '1'
-            src_3.style.transition = '1s'
-            src_3.style.marginRight = '0'
-        }
-        //page-2
-        if (scrollY >= 1480) {
-            //Move-1
-            src_4.style.opacity = '1'
-            src_4.style.transition = '1s'
-            src_4.style.transform = 'scale(1)'
-            //Move-2
-            src_5.style.opacity = '1'
-            src_5.style.transition = '3s'
-            src_5.style.transform = 'scale(1)'
-            //Move-3
-            src_6.style.opacity = '1'
-            src_6.style.transition = '5s'
-            src_6.style.transform = 'scale(1)'
-        }
-        else if (scrollY <= 1300) {
-            //Move-1
-            src_4.style.opacity = '1'
-            src_4.style.transition = '1s'
-            src_4.style.transform = 'scale(1)'
-            //Move-2
-            src_5.style.opacity = '1'
-            src_5.style.transition = '3s'
-            src_5.style.transform = 'scale(1)'
-            //Move-3
-            src_6.style.opacity = '1'
-            src_6.style.transition = '5s'
-            src_6.style.transform = 'scale(1)'
-        }
-        //page-3
-        if (scrollY >= 2700) {
-            //Move-1
-            src_7.style.opacity = '1'
-            src_7.style.transition = '1.5s'
-            src_7.style.transform = 'scale(1)'
-            //Move-2
-            src_8.style.opacity = '1'
-            src_8.style.transition = '2.5s'
-            src_8.style.transform = 'scale(1)'
-            //Move-3
-            src_9.style.opacity = '1'
-            src_9.style.transition = '3.5s'
-            src_9.style.transform = 'scale(1)'
-        }
-        else if (scrollY <= 2600) {
-            //Move-1
-            src_7.style.opacity = '1'
-            src_7.style.transition = '1.5s'
-            src_7.style.transform = 'scale(1)'
-            //Move-2
-            src_8.style.opacity = '1'
-            src_8.style.transition = '2.5s'
-            src_8.style.transform = 'scale(1)'
-            //Move-3
-            src_9.style.opacity = '1'
-            src_9.style.transition = '3.5s'
-            src_9.style.transform = 'scale(1)'
-        }
-
-    } else if (window.innerWidth <= 3000) {
-        //page-1
-        if (scrollY >= 380) {
-            //Move-1
-            src_2.style.opacity = '1'
-            src_2.style.transition = '1s'
-            src_2.style.transform = 'scale(1)'
-            //Move-2
-            src_3.style.opacity = '1'
-            src_3.style.transition = '1s'
-            src_3.style.marginRight = '0'
-        }
-        else if (scrollY <= 500) {
-            //Move-1
-            src_2.style.opacity = '0'
-            src_2.style.transform = 'scale(0)'
-            //Move-2
-            src_3.style.opacity = '0'
-            src_3.style.marginRight = '-20vw'
-        }
-        //page-2
-        if (scrollY >= 1405) {
-            //Move-1
-            src_4.style.opacity = '1'
-            src_4.style.transition = '1s'
-            src_4.style.marginTop = '0vh'
-            //Move-2
-            src_5.style.opacity = '1'
-            src_5.style.transition = '2s'
-            src_5.style.marginTop = '0vh'
-            //Move-3
-            src_6.style.opacity = '1'
-            src_6.style.transition = '3s'
-            src_6.style.marginTop = '0'
-        }
-        else if (scrollY <= 1200) {
-            //Move-1
-            src_4.style.opacity = '0'
-            src_4.style.marginTop = '-20vh'
-            //Move-2
-            src_5.style.opacity = '0'
-            src_5.style.marginTop = '-20vh'
-            //Move-3
-            src_6.style.opacity = '0'
-            src_6.style.marginTop = '-20vh'
-        }
-        //page-3
-        if (scrollY >= 2050) {
-            //Move-1
-            src_7.style.opacity = '1'
-            src_7.style.transition = '1s'
-            src_7.style.transform = 'scale(1)'
-            //Move-2
-            src_8.style.opacity = '1'
-            src_8.style.transition = '1s'
-            src_8.style.transform = 'scale(1)'
-            //Move-3
-            src_9.style.opacity = '1'
-            src_9.style.transition = '1s'
-            src_9.style.transform = 'scale(1)'
-        }
-        else if (scrollY <= 1900) {
-            //Move-1
-            src_7.style.opacity = '0'
-            src_7.style.transform = 'scale(0.5)'
-            //Move-2
-            src_8.style.opacity = '0'
-            src_8.style.transform = 'scale(0.5)'
-            //Move-3
-            src_9.style.opacity = '0'
-            src_9.style.transform = 'scale(0.5)'
-        }
-    }
-};
-
-var botton = document.getElementById('button-form');
-var input_1 = document.getElementsByTagName('input')[0];
-var input_2 = document.getElementsByTagName('input')[1];
-var input_3 = document.getElementsByTagName('input')[2];
-var input_4 = document.getElementsByTagName('textarea')[0];
-var cond = /^[a-zA-Z-\s]+$/
-botton.onclick = function () {
-    // input__1
-    if (cond.test(input_1.value) == false || input_1.value.trim() === '') {
-        input_1.style.border = '2px solid red'
-        input_1.value = ''
+navbar_scroll();
+//navbar_responsiv
+function navbar_responsiv() {
+    const header = document.querySelector('header');
+    const header_content = document.querySelector('.nav-content')
+    let height = '40vh'
+    if (header.style.height == height) {
+        header.style.height = '';
+        header_content.style.height = '';
+        header.style.boxShadow = '';
     }
     else {
-        input_1.style.border = '2px solid green'
-    }
-    // input__2
-    if (input_2.value.includes('@gmail.com') === false || input_2.value.trim() === '') {
-        input_2.style.border = '2px solid red'
-        input_2.value = ''
-    }
-    else {
-        input_2.style.border = '2px solid green'
-    }
-    // input__3
-    if (cond.test(input_3.value) == false || input_3.value.trim() === '') {
-        input_3.style.border = '2px solid red'
-        input_3.value = ''
-    }
-    else {
-        input_3.style.border = '2px solid green'
-    }
-    // input__4
-    if (cond.test(input_4.value) == false || input_4.value.trim() === '') {
-        input_4.style.border = '2px solid red'
-        input_4.value = ''
-    }
-    else {
-        input_4.style.border = '2px solid green'
-    }
-    // verifier button
-    if (
-        cond.test(input_1.value) == false ||
-        input_2.value.includes('@gmail.com') == false ||
-        cond.test(input_3.value) == false ||
-        cond.test(input_4.value) == false
-    ) {
-        alert('Respecter le champ correctement ');
-    }
-    else if (
-        cond.test(input_1.value) == true ||
-        input_2.value.includes('@gmail.com') == true ||
-        cond.test(input_3.value) == true ||
-        cond.test(input_4.value) == true
-    ) {
-        alert('Votre information et respecter');
+        header.style.height = height;
+        header_content.style.height = '20%';
+        header.style.boxShadow = '0px 0px 20px rgba(0, 0, 0, 0.185)';
     }
 }
 
-var respo = document.getElementById('nav-respo')
-var cont = document.getElementsByTagName('ul')[0];
-var cont_2 = document.getElementsByTagName('ul')[1];
-var cont_3 = document.getElementsByTagName('ul')[2];
-
-respo.onclick = function name(params) {
-    document.getElementById('nav-content-2').style.marginTop = '0vh'
+//theme-page
+function theme_page() {
+    var button_theme = document.querySelectorAll('.bx bxs-moon')
+    console.log('test')
+    button_theme.forEach(element => {
+        element.addEventListener('click', function () {
+            document.body.classList.toggle('theme')
+            document.querySelector('body').style.transition = '1s'
+        })
+    });
 }
-cont.onclick = function name(params) {
-    document.getElementById('nav-content-2').style.marginTop = '-100vh'
-}
-
-cont_2.onclick = function name(params) {
-    document.getElementById('nav-content-2').style.marginTop = '-100vh'
-}
-
-cont_3.onclick = function name(params) {
-    document.getElementById('nav-content-2').style.marginTop = '-100vh'
-}
+theme_page()
+// //check-form
+// var botton = document.getElementById('button-form');
+// var input_1 = document.getElementsByTagName('input')[0];
+// var input_2 = document.getElementsByTagName('input')[1];
+// var input_3 = document.getElementsByTagName('input')[2];
+// var input_4 = document.getElementsByTagName('textarea')[0];
+// var cond = /^[a-zA-Z-\s]+$/
+// botton.onclick = function () {
+//     // input__1
+//     if (cond.test(input_1.value) == false || input_1.value.trim() === '') {
+//         input_1.style.border = '2px solid red'
+//         input_1.value = ''
+//     }
+//     else {
+//         input_1.style.border = '2px solid green'
+//     }
+//     // input__2
+//     if (input_2.value.includes('@gmail.com') === false || input_2.value.trim() === '') {
+//         input_2.style.border = '2px solid red'
+//         input_2.value = ''
+//     }
+//     else {
+//         input_2.style.border = '2px solid green'
+//     }
+//     // input__3
+//     if (cond.test(input_3.value) == false || input_3.value.trim() === '') {
+//         input_3.style.border = '2px solid red'
+//         input_3.value = ''
+//     }
+//     else {
+//         input_3.style.border = '2px solid green'
+//     }
+//     // input__4
+//     if (cond.test(input_4.value) == false || input_4.value.trim() === '') {
+//         input_4.style.border = '2px solid red'
+//         input_4.value = ''
+//     }
+//     else {
+//         input_4.style.border = '2px solid green'
+//     }
+//     // verifier button
+//     if (
+//         cond.test(input_1.value) == false ||
+//         input_2.value.includes('@gmail.com') == false ||
+//         cond.test(input_3.value) == false ||
+//         cond.test(input_4.value) == false
+//     ) {
+//         alert('Respecter le champ correctement ');
+//     }
+//     else if (
+//         cond.test(input_1.value) == true ||
+//         input_2.value.includes('@gmail.com') == true ||
+//         cond.test(input_3.value) == true ||
+//         cond.test(input_4.value) == true
+//     ) {
+//         alert('Votre information et respecter');
+//     }
+// }
 
 
 
