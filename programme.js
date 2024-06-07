@@ -5,14 +5,14 @@ function navbar_scroll() {
         if (window.scrollY > 0) {
             header.style.boxShadow = '0px 0px 20px rgba(0, 0, 0, 0.185)';
         } else {
-            header.style.boxShadow = 'none';
+            header.style.boxShadow = '';
         }
     });
 }
 navbar_scroll();
 //navbar_responsiv
 function navbar_content() {
-    const links = document.querySelectorAll('.navbar-responsiv ul li a');
+    const links = document.querySelectorAll('.navbar-responsiv a');
     links.forEach(link => {
         link.addEventListener('click', navbar_responsiv)
     })
