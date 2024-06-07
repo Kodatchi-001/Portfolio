@@ -1009,6 +1009,7 @@ header {
         overflow: hidden;
         position: absolute fixed;
         transition: 0.8s ease;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.185);
     }
 
     .nav-content {
@@ -1024,7 +1025,7 @@ header {
 
     .content-1 h3 {
         width: 50%;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .content-1 span {
@@ -1045,14 +1046,14 @@ header {
         display: flex;
         justify-content: end;
         align-items: center;
-        gap: 5px;
+        gap: 8px;
     }
     
     .content-4 i:first-child{
-        font-size: 1.5rem;
+        font-size: 1.9rem;
     }
     .content-4 i {
-        font-size: 1.7rem;
+        font-size: 2.2rem;
     }
 
     .navbar-responsiv {
@@ -1089,7 +1090,6 @@ header {
 
 /*smartphone*/
 @media only screen and (max-width: 600px) {
-
     /*home-page*/
     #home {
         overflow: hidden;
@@ -1099,7 +1099,7 @@ header {
         width: 100%;
         height: 100%;
         flex-wrap: wrap-reverse;
-        margin-top: 8vh;
+        margin-top: 5vh;
     }
 
     .home {
@@ -1377,7 +1377,7 @@ header {
     }
 
     .card-info {
-        width: 90%;
+        width: 85%;
         height: 50vh;
         display: flex;
         flex-wrap: wrap;
@@ -1442,7 +1442,6 @@ header {
 
     .info-tittle-2 p {
         width: 100%;
-        font-size: 0.9rem;
     }
 
     .info-tittle-3 {
