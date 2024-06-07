@@ -1024,14 +1024,14 @@ header {
 
     .content-1 h3 {
         width: 50%;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .content-1 span {
-        width: 20%;
+        width: 18%;
         height: 4vh;
-        font-size: 1.4rem;
-        border-radius: 10px;
+        font-size: 0.9rem;
+        border-radius: 5px;
     }
 
     .content-2,
@@ -1045,10 +1045,14 @@ header {
         display: flex;
         justify-content: end;
         align-items: center;
+        gap: 5px;
     }
-
+    
+    .content-4 i:first-child{
+        font-size: 1.5rem;
+    }
     .content-4 i {
-        font-size: 2.5rem;
+        font-size: 1.7rem;
     }
 
     .navbar-responsiv {
@@ -1067,8 +1071,7 @@ header {
         flex-wrap: wrap;
     }
 
-    .navbar-responsiv ul li,
-    .icone-navbar-responsiv {
+    .navbar-responsiv ul li{
         width: 100%;
         text-align: center;
         list-style: none;
@@ -1078,13 +1081,9 @@ header {
         width: 100%;
         text-align: center;
         text-decoration: none;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         color: black;
         font-weight: 600;
-    }
-
-    .icone-navbar-responsiv i {
-        font-size: 6vw;
     }
 }
 
@@ -1100,6 +1099,7 @@ header {
         width: 100%;
         height: 100%;
         flex-wrap: wrap-reverse;
+        margin-top: 8vh;
     }
 
     .home {
@@ -1442,6 +1442,7 @@ header {
 
     .info-tittle-2 p {
         width: 100%;
+        font-size: 0.9rem;
     }
 
     .info-tittle-3 {

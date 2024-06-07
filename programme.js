@@ -21,7 +21,7 @@ navbar_content()
 function navbar_responsiv() {
     const header_content = document.querySelector('.nav-content')
     const header = document.querySelector('header');
-    const height = '45vh'
+    const height = '50vh'
 
     if (header.style.height == height) {
         header.style.height = '';
@@ -35,7 +35,7 @@ function navbar_responsiv() {
 //theme-page
 function theme_page() {
     var button_theme_1 = document.querySelector('.content-3 i')
-    var button_theme_2 = document.querySelector('.icone-navbar-responsiv i')
+    var button_theme_2 = document.querySelector('.content-4 i')
 
     button_theme_1.addEventListener('click', theme)
     button_theme_2.addEventListener('click', theme)
