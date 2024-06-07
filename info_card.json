@@ -1,0 +1,20 @@
+[
+    {
+        "src" : "./Assets/web-1.png",
+        "tittle" : "Future-Home",
+        "link_github": "https://github.com/Kodatchi-001/Future-Home",
+        "link_web": "https://future-home-omega.vercel.app/"
+    },
+    {
+        "src" : "./Assets/web-2.png",
+        "tittle" : "Home-Interior",
+        "link_github": "https://github.com/Kodatchi-001/Home-Interior",
+        "link_web": "https://home-interior-tau.vercel.app/"
+    },
+    {
+        "src" : "./Assets/web-3.png",
+        "tittle" : "Grand-Hotel",
+        "link_github": "https://github.com/Kodatchi-001/Grand-Hotel",
+        "link_web": "https://grand-hotel-one.vercel.app/"
+    }
+]
