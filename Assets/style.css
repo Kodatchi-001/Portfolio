@@ -654,7 +654,7 @@ header {
 
 .card-info {
     width: 22.5vw;
-    height: 51vh;
+    height: 48vh;
     display: flex;
     flex-wrap: wrap;
     transition: 0.5s ease-out;

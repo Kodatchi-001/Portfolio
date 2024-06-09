@@ -48,6 +48,7 @@ function theme() {
 //card_information
 async function loadJSON() {
     const img_card = document.querySelectorAll('.info-image img')
+    const icone_card = document.querySelectorAll('.info-tittle-1-2 i')
     const tittle_card = document.querySelectorAll('.info-tittle-2 h1');
     const link_github = document.querySelectorAll('.info-tittle-3 .link-git')
     const link_web = document.querySelectorAll('.info-tittle-3 .link-web');
@@ -61,9 +62,15 @@ async function loadJSON() {
         }
     });
 
+    icone_card.forEach((icone, index) => {
+        if (jsonObject[index]) {
+            icone.className = jsonObject[index].icone
+        }
+    });
+
     tittle_card.forEach((tittle, index) => {
         if (jsonObject[index]) {
-            tittle.textContent = jsonObject[index].tittle
+            tittle.innerHTML = jsonObject[index].tittle
         }
     });
 

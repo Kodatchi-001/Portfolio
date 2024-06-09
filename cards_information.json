@@ -1,20 +1,23 @@
 [
     {
         "src" : "./Assets/web-1.png",
+        "icone" : "bx bx-home-alt",
         "tittle" : "Future-Home",
         "link_github": "https://github.com/Kodatchi-001/Future-Home",
         "link_web": "https://future-home-omega.vercel.app/"
     },
     {
         "src" : "./Assets/web-2.png",
+        "icone" : "bx bx-home",
         "tittle" : "Home-Interior",
         "link_github": "https://github.com/Kodatchi-001/Home-Interior",
         "link_web": "https://home-interior-tau.vercel.app/"
     },
     {
         "src" : "./Assets/web-3.png",
-        "tittle" : "Grand-Hotel",
-        "link_github": "https://github.com/Kodatchi-001/Grand-Hotel",
-        "link_web": "https://grand-hotel-one.vercel.app/"
+        "icone" : "bx bxs-graduation",
+        "tittle" : "School-web",
+        "link_github": "https://github.com/Kodatchi-001/School_web",
+        "link_web": "https://school-web-rouge.vercel.app/"
     }
 ]
