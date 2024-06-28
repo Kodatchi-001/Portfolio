@@ -15,7 +15,7 @@
     },
     {
         "src" : "./Assets/web-3.png",
-        "icone" : "bx bxs-graduation",
+        "icone" : "bx bx-cart",
         "tittle" : "Shoe-store",
         "link_github": "https://github.com/Kodatchi-001/Shoe-store",
         "link_web": "https://shoe-store-mu-nine.vercel.app/"
