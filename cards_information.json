@@ -1,23 +1,23 @@
 [
     {
-        "src" : "./Assets/web-1.png",
-        "icone" : "bx bx-home-alt",
-        "tittle" : "Future-Home",
-        "link_github": "https://github.com/Kodatchi-001/Future-Home",
-        "link_web": "https://future-home-omega.vercel.app/"
-    },
-    {
-        "src" : "./Assets/web-2.png",
-        "icone" : "bx bx-home",
-        "tittle" : "Home-Interior",
+        "src": "./Assets/web-1.png",
+        "icone": "bx bx-home",
+        "tittle": "Home-Interior",
         "link_github": "https://github.com/Kodatchi-001/Home-Interior",
         "link_web": "https://home-interior-tau.vercel.app/"
     },
     {
-        "src" : "./Assets/web-3.png",
-        "icone" : "bx bx-cart",
-        "tittle" : "Shoe-store",
+        "src": "./Assets/web-2.png",
+        "icone": "bx bx-cart",
+        "tittle": "Shoe-store",
         "link_github": "https://github.com/Kodatchi-001/Shoe-store",
         "link_web": "https://shoe-store-mu-nine.vercel.app/"
+    },
+    {
+        "src": "./Assets/web-3.png",
+        "icone": "bx bxs-coffee-bean",
+        "tittle": "Coffee-Shop",
+        "link_github": "https://github.com/Kodatchi-001/Coffee-Shop",
+        "link_web": "https://coffee-shop-nine-phi.vercel.app/"
     }
 ]
