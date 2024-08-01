@@ -16,8 +16,8 @@
     {
         "src": "./Assets/web-3.png",
         "icone": "bx bxs-coffee-bean",
-        "tittle": "Coffee-Shop",
-        "link_github": "https://github.com/Kodatchi-001/Coffee-Shop",
-        "link_web": "https://coffee-shop-nine-phi.vercel.app/"
+        "tittle": "Gym-Bull",
+        "link_github": "https://github.com/Kodatchi-001/Gym-Bull",
+        "link_web": "https://gym-bull.vercel.app/"
     }
 ]
