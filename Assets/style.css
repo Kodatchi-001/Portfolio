@@ -14,7 +14,7 @@ body {
 
 header {
     width: 100%;
-    height: 10vh;
+    height: 12vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,8 +42,7 @@ header {
 }
 
 .content-1 span {
-    width: 8%;
-    height: 50%;
+    padding: 7.5px 12px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -451,7 +450,7 @@ header {
 }
 
 .tittle-content-1 {
-    width: 90%;
+    width: 95%;
     height: 60%;
     display: flex;
     justify-content: center;
@@ -593,7 +592,7 @@ header {
 }
 
 .card-content {
-    width: 80%;
+    width: 82%;
     height: 50%;
     display: flex;
     justify-content: center;
@@ -653,14 +652,18 @@ header {
 }
 
 .card-info {
-    width: 22.5vw;
+    width: 21.5vw;
     height: 48vh;
     display: flex;
     flex-wrap: wrap;
     transition: 0.5s ease-out;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.285);
+}
+
+.card-info:hover{
+    margin-top: -40px;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.251);
 }
 
 .info-image {
@@ -1029,10 +1032,8 @@ header {
     }
 
     .content-1 span {
-        width: 18%;
-        height: 4vh;
+        padding: 7.5px 12px;
         font-size: 0.9rem;
-        border-radius: 5px;
     }
 
     .content-2,
@@ -1050,10 +1051,10 @@ header {
     }
     
     .content-4 i:first-child{
-        font-size: 1.9rem;
+        font-size: 1.5rem;
     }
     .content-4 i {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 
     .navbar-responsiv {
@@ -1385,7 +1386,7 @@ header {
         margin-right: auto;
         background-color: white;
         border-radius: 20px;
-        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.393);
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.251);
     }
 
     .info-image {
@@ -1647,10 +1648,8 @@ header {
 
     /*header*/
     .content-1 span {
-        width: 14%;
-        height: 4vh;
+        padding: 7px 12px;
         font-size: 1.4rem;
-        border-radius: 10px;
     }
 
     /*home*/
@@ -1947,7 +1946,7 @@ header {
         margin-right: auto;
         background-color: white;
         border-radius: 20px;
-        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.393);
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.251);
     }
 
     .info-image {
@@ -2213,9 +2212,7 @@ header {
     }
 
     .content-1 span {
-        width: 7%;
-        height: 42%;
-        border-radius: 10px;
+        padding: 7.5px 12px;
         font-size: 1.5vw;
     }
 
@@ -2454,9 +2451,7 @@ header {
 
     /*header*/
     .content-1 span {
-        width: 8%;
-        height: 42%;
-        border-radius: 10px;
+        padding: 7.5px 12px;
         font-size: 1.2vw;
     }
 

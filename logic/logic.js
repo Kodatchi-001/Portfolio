@@ -10,6 +10,7 @@ function navbar_scroll() {
     });
 }
 navbar_scroll();
+
 //navbar_responsiv
 function navbar_content() {
     const links = document.querySelectorAll('.navbar-responsiv a');
@@ -17,11 +18,12 @@ function navbar_content() {
         link.addEventListener('click', navbar_responsiv)
     })
 }
-navbar_content()
+navbar_content();
+
 function navbar_responsiv() {
     const header_content = document.querySelector('.nav-content')
     const header = document.querySelector('header');
-    const height = '50vh'
+    const height = '40vh'
 
     if (header.style.height == height) {
         header.style.height = '';
@@ -32,6 +34,7 @@ function navbar_responsiv() {
         header_content.style.height = '20%';
     }
 }
+
 //theme-page
 function theme_page() {
     var button_theme_1 = document.querySelector('.content-3 i')
@@ -41,10 +44,12 @@ function theme_page() {
     button_theme_2.addEventListener('click', theme)
 }
 theme_page()
+
 function theme() {
     document.body.classList.toggle('theme')
     document.querySelector('body').style.transition = '1s'
 }
+
 //card_information
 async function loadJSON() {
     const img_card = document.querySelectorAll('.info-image img')
@@ -53,7 +58,7 @@ async function loadJSON() {
     const link_github = document.querySelectorAll('.info-tittle-3 .link-git')
     const link_web = document.querySelectorAll('.info-tittle-3 .link-web');
 
-    const response = await fetch('cards_information.json');
+    const response = await fetch('logic/cards_information.json');
     const jsonObject = await response.json();
 
     img_card.forEach((img, index) => {
@@ -87,6 +92,7 @@ async function loadJSON() {
     });
 }
 loadJSON();
+
 //check-form
 var botton = document.getElementById('button-form');
 var input_1 = document.getElementsByTagName('input')[0];
